@@ -150,7 +150,7 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "TVIXPdXcuQ2fLAnyj75YWTBqrpuwHhhC7XAYIT2rJ18",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -158,7 +158,7 @@ export const USER_CONFIG = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oGY4X6Jc4x1BiKJnTF-nWbUtuZfc",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -196,10 +196,10 @@ export const USER_CONFIG = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
+    {"type": "*生日", "美丽可爱亲亲小雪": "老婆", "year": "2003", "date": "11.13"},
     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
+    {"type": "生日", "美丽可爱亲亲小雪": "老婆", "year": "2003", "date": "12-6"},
     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     // 你可以不断按格式往下增加
     // ...
@@ -220,7 +220,7 @@ export const USER_CONFIG = {
    * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "恋爱在一起的日子", date: "2022-04-29"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
